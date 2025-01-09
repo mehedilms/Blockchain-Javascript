@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Blockchain</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button onclick="startAutoMining()">Démarrer la génération automatique</button>
+            <button onclick="mineOneBlock()">Générer le block suivant</button>
+        </div>
+        <div id="blockchain"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
